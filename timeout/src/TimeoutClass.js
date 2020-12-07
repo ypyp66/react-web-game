@@ -12,7 +12,7 @@ class TimeoutClass extends Component {
   end;
 
   onClickScreen = () => {
-    const { state, result } = this.state;
+    const { state } = this.state;
     if (state === "waiting") {
       this.setState({
         state: "ready",
